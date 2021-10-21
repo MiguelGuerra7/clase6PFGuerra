@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: #fff;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor {
+  background-color: green;
+  overflow: auto;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  /* align-content: center; */
+}
+
+.item {
+  background-color: orange;
+  margin: 5px;
+  height: 200px;
+}
+
+.header {
+  background: rgb(0, 51, 128);
+  height: 100px;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  height: 600px;
+  background-image: url(Imagenes/161020-Por-que-estudiar-Contador-Publico-640.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 100px;
+  text-align: center;
+  gap: 20px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.text {
+  text-align: justify;
+  line-height: 25px;
+}
